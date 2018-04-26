@@ -1,0 +1,94 @@
+body {
+  background-image: url('purgatory.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.outer {
+  position: fixed;
+  top: calc(50% - 15vw);
+  left: calc(50% - 10vw);
+  width: 20vw;
+  height: 32vw;
+  border: .5vw solid black;
+  border-radius: .5vw;
+  background-color: #d4d4d4;
+}
+
+.display {
+  margin: 10%;
+  width: 80%;
+  height: 40%;
+  background-color: #000;
+}
+
+.floor {
+  display: inline-block;
+  width: 40%;
+  height: 65%;
+  color: #fff;
+  font-size: 8vw;
+  font-family: 'Open Sans';
+  padding: 15% 0 20% 10%;
+}
+
+.ud {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.up {
+  margin: 20% 5% 20% 30%;
+  width: 50%;
+  height: 30%;
+  background-color: #6bbe44;
+}
+
+.down {
+  margin: 20% 5% 20% 30%;
+  width: 50%;
+  height: 30%;
+  background-color: #f00;
+}
+
+.btns {
+  width: 80%;
+  margin: 10%;
+  height: 35%;
+}
+
+.lbtns {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+  margin-bottom: 30%;
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: bold;
+  width: 45%;
+  height: 28%;
+  padding: 5%;
+  padding-top: 10%;
+  background-color: #fff;
+  font-family: 'Open Sans';
+  border: .3vw solid black;
+  border-radius: 50%;
+}
+
+.btn4, .btn2 {
+  float: right;
+  clear: both;
+}
+
+.rbtns {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  height: 100%;
+}
